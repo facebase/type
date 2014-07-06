@@ -23,15 +23,17 @@ h6 { font-size: 1.2rem; margin: 2.4rem 0 }
     font-size: 78.125%;
   }
 
-  * { font-size: 1.36rem; margin: 1.36rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type)  *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+                                                                     font-size: 1.36rem; margin: 1.36rem 0 }
 
-   *.dont-respond { font-size: 1.28rem; margin: 1.28rem 0 }
-  h1.dont-respond { font-size: 2.64rem; margin: 1.68rem 0 }
-  h2.dont-respond { font-size: 2.00rem; margin: 1.52rem 0 }
-  h3.dont-respond { font-size: 1.60rem; margin: 1.44rem 0 }
-  h4.dont-respond { font-size: 1.28rem; margin: 1.28rem 0 }
-  h5.dont-respond { font-size: 1.20rem; margin: 1.76rem 0 }
-  h6.dont-respond { font-size: 0.96rem; margin: 1.92rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type)  *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6).dont-respond {
+                                                                     font-size: 1.28rem; margin: 1.28rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type) h1.dont-respond { font-size: 2.64rem; margin: 1.68rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type) h2.dont-respond { font-size: 2.00rem; margin: 1.52rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type) h3.dont-respond { font-size: 1.60rem; margin: 1.44rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type) h4.dont-respond { font-size: 1.28rem; margin: 1.28rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type) h5.dont-respond { font-size: 1.20rem; margin: 1.76rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type) h6.dont-respond { font-size: 0.96rem; margin: 1.92rem 0 }
 }
 
 /* LARGE [x 1.5625] */
@@ -40,13 +42,15 @@ h6 { font-size: 1.2rem; margin: 2.4rem 0 }
     font-size: 97.6563%;
   }
 
-  * { font-size: 1.152rem; margin: 1.152rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type)  *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+                                                                     font-size: 1.152rem; margin: 1.152rem 0 }
 
-   *.dont-respond { font-size: 1.024rem; margin: 1.024rem 0 }
-  h1.dont-respond { font-size: 2.112rem; margin: 1.344rem 0 }
-  h2.dont-respond { font-size: 1.600rem; margin: 1.216rem 0 }
-  h3.dont-respond { font-size: 1.280rem; margin: 1.152rem 0 }
-  h4.dont-respond { font-size: 1.024rem; margin: 1.024rem 0 }
-  h5.dont-respond { font-size: 0.960rem; margin: 1.408rem 0 }
-  h6.dont-respond { font-size: 0.768rem; margin: 1.536rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type)  *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6).dont-respond {
+                                                                     font-size: 1.024rem; margin: 1.024rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type) h1.dont-respond { font-size: 2.112rem; margin: 1.344rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type) h2.dont-respond { font-size: 1.600rem; margin: 1.216rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type) h3.dont-respond { font-size: 1.280rem; margin: 1.152rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type) h4.dont-respond { font-size: 1.024rem; margin: 1.024rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type) h5.dont-respond { font-size: 0.960rem; margin: 1.408rem 0 }
+  html:not(.dont-respond):not(.dont-respond--type) h6.dont-respond { font-size: 0.768rem; margin: 1.536rem 0 }
 }
