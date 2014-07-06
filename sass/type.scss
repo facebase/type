@@ -1,0 +1,52 @@
+/* small [x 1] */
+html { font-size: 62.5% }
+
+ * { font-size: 16px; margin: 16px 0 }
+h1 { font-size: 33px; margin: 21px 0 }
+h2 { font-size: 25px; margin: 19px 0 }
+h3 { font-size: 20px; margin: 18px 0 }
+h4 { font-size: 16px; margin: 16px 0 }
+h5 { font-size: 15px; margin: 22px 0 }
+h6 { font-size: 12px; margin: 24px 0 }
+
+ * { font-size: 1.6rem; margin: 1.6rem 0 }
+h1 { font-size: 3.3rem; margin: 2.1rem 0 }
+h2 { font-size: 2.5rem; margin: 1.9rem 0 }
+h3 { font-size: 2.0rem; margin: 1.8rem 0 }
+h4 { font-size: 1.6rem; margin: 1.6rem 0 }
+h5 { font-size: 1.5rem; margin: 2.2rem 0 }
+h6 { font-size: 1.2rem; margin: 2.4rem 0 }
+
+html:not(.dont-respond):not(.dont-respond--type) {
+  /* medium [x 1.25] */
+  @media screen and (min-width: 48em) {
+    & { font-size: 78.125% }
+
+    & *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) { font-size: 1.36rem; margin: 1.36rem 0 }
+
+    & *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6).dont-respond {
+                        font-size: 1.28rem; margin: 1.28rem 0 }
+    & h1.dont-respond { font-size: 2.64rem; margin: 1.68rem 0 }
+    & h2.dont-respond { font-size: 2.00rem; margin: 1.52rem 0 }
+    & h3.dont-respond { font-size: 1.60rem; margin: 1.44rem 0 }
+    & h4.dont-respond { font-size: 1.28rem; margin: 1.28rem 0 }
+    & h5.dont-respond { font-size: 1.20rem; margin: 1.76rem 0 }
+    & h6.dont-respond { font-size: 0.96rem; margin: 1.92rem 0 }
+  }
+
+  /* LARGE [x 1.5625] */
+  @media screen and (min-width: 64em) {
+    & { font-size: 97.6563% }
+
+    &  *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) { font-size: 1.152rem; margin: 1.152rem 0 }
+
+    &  *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6).dont-respond {
+                        font-size: 1.024rem; margin: 1.024rem 0 }
+    & h1.dont-respond { font-size: 2.112rem; margin: 1.344rem 0 }
+    & h2.dont-respond { font-size: 1.600rem; margin: 1.216rem 0 }
+    & h3.dont-respond { font-size: 1.280rem; margin: 1.152rem 0 }
+    & h4.dont-respond { font-size: 1.024rem; margin: 1.024rem 0 }
+    & h5.dont-respond { font-size: 0.960rem; margin: 1.408rem 0 }
+    & h6.dont-respond { font-size: 0.768rem; margin: 1.536rem 0 }
+  }
+}

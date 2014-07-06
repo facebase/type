@@ -1,0 +1,23 @@
+{
+  "name": "type",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/facebase/type.git"
+  },
+  "author": "Michael Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facebase/type/issues"
+  },
+  "homepage": "https://github.com/facebase/type",
+  "dependencies": {
+    "gulp": "^3.8.5",
+    "gulp-sass": "^0.7.2"
+  }
+}
